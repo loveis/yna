@@ -35,7 +35,8 @@ public class News extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Served at: ").append(request.getContextPath())
+		.append("테스트중입니다. 잘돼야 될건데.");
 	}
 
 	/**
