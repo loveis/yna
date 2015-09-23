@@ -37,6 +37,7 @@ public class News extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath())
 		.append("테스트중입니다. 잘돼야 될건데.");
+		System.out.println("News");
 	}
 
 	/**
